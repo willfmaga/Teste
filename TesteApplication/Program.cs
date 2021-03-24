@@ -15,7 +15,9 @@ namespace TesteApplication
 
             do
             {
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.ResetColor();
+                PularLinha();
+
                 MenuPrincipal();
                 escolha = LeituraLinha();
 
@@ -24,28 +26,38 @@ namespace TesteApplication
                     case "1":
                         Console.WriteLine("Digite o documento(sem pontuação)");
                         string documento = LeituraLinha();
-
+                       
+                        PularLinha();
                         var cliente = _clienteService.Buscar(documento, 55);
+
 
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(JsonConvert.SerializeObject(cliente));
+                        PularLinha();
 
                         break;
                     case "2":
                         Console.WriteLine("Digite o nome ou parte dele");
                         string nome = LeituraLinha();
+                        PularLinha();
 
                         var clientes = _clienteService.Buscar(nome);
 
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine(JsonConvert.SerializeObject(clientes));
+                        PularLinha();
 
                         break;
                     case "3":
                         escolha = "3";
                         break;
                     default:
+                        PularLinha();
+
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Voce deve escolher dentre as opções fornecidas.");
+                        PularLinha();
+
                         MenuPrincipal();
                         escolha = LeituraLinha();
                         continue;
@@ -57,6 +69,11 @@ namespace TesteApplication
 
             Console.WriteLine("Obrigado por usar o Teste.");
 
+        }
+
+        private static void PularLinha()
+        {
+            Console.WriteLine();
         }
 
         private static string LeituraLinha()
