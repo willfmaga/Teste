@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
+      "projectUniqueName": "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
       "projectName": "ClienteServiceInMemory",
-      "projectPath": "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
+      "projectPath": "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
       "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Teste\\ClienteServiceInMemory\\obj\\",
+      "outputPath": "C:\\git\\Teste\\ClienteServiceInMemory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,8 +61,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Git\\Teste\\Cliente\\Cliente.csproj": {
-              "projectPath": "C:\\Git\\Teste\\Cliente\\Cliente.csproj"
+            "C:\\git\\Teste\\Cliente\\Cliente.csproj": {
+              "projectPath": "C:\\git\\Teste\\Cliente\\Cliente.csproj"
             }
           }
         }

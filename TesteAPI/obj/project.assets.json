@@ -34,6 +34,19 @@
         "runtime": {
           "bin/placeholder/ClienteServiceDatabase.dll": {}
         }
+      },
+      "ClienteServiceInMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Cliente": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClienteServiceInMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClienteServiceInMemory.dll": {}
+        }
       }
     }
   },
@@ -74,12 +87,18 @@
       "type": "project",
       "path": "../ClienteServiceDatabase/ClienteServiceDatabase.csproj",
       "msbuildProject": "../ClienteServiceDatabase/ClienteServiceDatabase.csproj"
+    },
+    "ClienteServiceInMemory/1.0.0": {
+      "type": "project",
+      "path": "../ClienteServiceInMemory/ClienteServiceInMemory.csproj",
+      "msbuildProject": "../ClienteServiceInMemory/ClienteServiceInMemory.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Cliente >= 1.0.0",
-      "ClienteServiceDatabase >= 1.0.0"
+      "ClienteServiceDatabase >= 1.0.0",
+      "ClienteServiceInMemory >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -119,6 +138,9 @@
           "projectReferences": {
             "C:\\git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj": {
               "projectPath": "C:\\git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj"
+            },
+            "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj": {
+              "projectPath": "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj"
             },
             "C:\\git\\Teste\\Cliente\\Cliente.csproj": {
               "projectPath": "C:\\git\\Teste\\Cliente\\Cliente.csproj"

@@ -108,11 +108,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Teste\\TesteApplication\\TesteApplication.csproj",
+      "projectUniqueName": "C:\\git\\Teste\\TesteApplication\\TesteApplication.csproj",
       "projectName": "TesteApplication",
-      "projectPath": "C:\\Git\\Teste\\TesteApplication\\TesteApplication.csproj",
+      "projectPath": "C:\\git\\Teste\\TesteApplication\\TesteApplication.csproj",
       "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Teste\\TesteApplication\\obj\\",
+      "outputPath": "C:\\git\\Teste\\TesteApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -136,14 +136,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj": {
-              "projectPath": "C:\\Git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj"
+            "C:\\git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj": {
+              "projectPath": "C:\\git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj"
             },
-            "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj": {
-              "projectPath": "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj"
+            "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj": {
+              "projectPath": "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj"
             },
-            "C:\\Git\\Teste\\Cliente\\Cliente.csproj": {
-              "projectPath": "C:\\Git\\Teste\\Cliente\\Cliente.csproj"
+            "C:\\git\\Teste\\Cliente\\Cliente.csproj": {
+              "projectPath": "C:\\git\\Teste\\Cliente\\Cliente.csproj"
             }
           }
         }

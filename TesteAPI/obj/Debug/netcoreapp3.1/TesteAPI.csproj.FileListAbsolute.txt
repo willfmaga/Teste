@@ -24,3 +24,5 @@ C:\git\Teste\TesteAPI\obj\Debug\netcoreapp3.1\TesteAPI.genruntimeconfig.cache
 C:\git\Teste\TesteAPI\bin\Debug\netcoreapp3.1\ClienteServiceDatabase.dll
 C:\git\Teste\TesteAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\git\Teste\TesteAPI\bin\Debug\netcoreapp3.1\ClienteServiceDatabase.pdb
+C:\git\Teste\TesteAPI\bin\Debug\netcoreapp3.1\ClienteServiceInMemory.dll
+C:\git\Teste\TesteAPI\bin\Debug\netcoreapp3.1\ClienteServiceInMemory.pdb

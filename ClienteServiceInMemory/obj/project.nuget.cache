@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QXciZPsI0wvxEPMJIWu9NMwscm50RH2Pwf2vAQdq+m421iiAqagGV2vC5q8YtWU5sgEfV4A/Fb44Ka1CMjqdcQ==",
+  "dgSpecHash": "TnfZtMEkxP0v+5fxUE8eT+fnwjIBlrfFGcaJnd8U4XwB6m6zepwr2Xpht5h8VO09zd8VW3+Abw0PoVvvgq/UiA==",
   "success": true,
-  "projectFilePath": "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
+  "projectFilePath": "C:\\git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

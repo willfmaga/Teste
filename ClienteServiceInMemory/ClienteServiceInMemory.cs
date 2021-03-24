@@ -13,7 +13,9 @@ namespace Teste
         {
             this.clientes = new List<Cliente>() { 
                 new Cliente { Nome = "Eduardo Silva", Documento  = "123456", Pais = 55},
-                new Cliente { Nome = "William Magalhaes", Documento = "654321", Pais = 55}
+                new Cliente { Nome = "William Magalhaes", Documento = "654321", Pais = 55},
+                new Cliente { Nome = "Admilson Cotrim", Documento = "123", Pais = 55}
+
             };
             
         }

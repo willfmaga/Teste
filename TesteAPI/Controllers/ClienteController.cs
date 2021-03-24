@@ -20,7 +20,7 @@ namespace TesteAPI.Controllers
         }
 
         [HttpGet]
-        [Route("{action}/{documento}/{pais}")]
+        [Route("{documento}/{pais}")]
         public Cliente Find(string documento,int pais)
         {
             var cliente = _clienteService.Buscar(documento, pais);
