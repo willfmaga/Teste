@@ -1,0 +1,179 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Cliente/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Cliente.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Cliente.dll": {}
+        }
+      },
+      "ClienteServiceDatabase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Cliente": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ClienteServiceDatabase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClienteServiceDatabase.dll": {}
+        }
+      },
+      "ClienteServiceInMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Cliente": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClienteServiceInMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClienteServiceInMemory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Cliente/1.0.0": {
+      "type": "project",
+      "path": "../Cliente/Cliente.csproj",
+      "msbuildProject": "../Cliente/Cliente.csproj"
+    },
+    "ClienteServiceDatabase/1.0.0": {
+      "type": "project",
+      "path": "../ClienteServiceDatabase/ClienteServiceDatabase.csproj",
+      "msbuildProject": "../ClienteServiceDatabase/ClienteServiceDatabase.csproj"
+    },
+    "ClienteServiceInMemory/1.0.0": {
+      "type": "project",
+      "path": "../ClienteServiceInMemory/ClienteServiceInMemory.csproj",
+      "msbuildProject": "../ClienteServiceInMemory/ClienteServiceInMemory.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Cliente >= 1.0.0",
+      "ClienteServiceDatabase >= 1.0.0",
+      "ClienteServiceInMemory >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Git\\Teste\\TesteApplication\\TesteApplication.csproj",
+      "projectName": "TesteApplication",
+      "projectPath": "C:\\Git\\Teste\\TesteApplication\\TesteApplication.csproj",
+      "packagesPath": "C:\\Users\\william.magalhaes\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\Teste\\TesteApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\william.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Nuget Will": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://tfsd.repom.com.br/repom.nuget.server/nuget": {},
+        "http://tfsserver1.repom.com.br:8080/tfs/Repom/_packaging/Channels/nuget/v3/index.json": {},
+        "http://tfsserver1.repom.com.br:8080/tfs/Repom/_packaging/Flag/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj": {
+              "projectPath": "C:\\Git\\Teste\\ClienteServiceDatabase\\ClienteServiceDatabase.csproj"
+            },
+            "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj": {
+              "projectPath": "C:\\Git\\Teste\\ClienteServiceInMemory\\ClienteServiceInMemory.csproj"
+            },
+            "C:\\Git\\Teste\\Cliente\\Cliente.csproj": {
+              "projectPath": "C:\\Git\\Teste\\Cliente\\Cliente.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

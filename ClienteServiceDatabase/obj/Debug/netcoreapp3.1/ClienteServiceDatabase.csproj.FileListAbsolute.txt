@@ -1,0 +1,12 @@
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.csprojAssemblyReference.cache
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.AssemblyInfoInputs.cache
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.AssemblyInfo.cs
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.csproj.CoreCompileInputs.cache
+C:\git\Teste\ClienteServiceDatabase\bin\Debug\netcoreapp3.1\ClienteServiceDatabase.deps.json
+C:\git\Teste\ClienteServiceDatabase\bin\Debug\netcoreapp3.1\ClienteServiceDatabase.dll
+C:\git\Teste\ClienteServiceDatabase\bin\Debug\netcoreapp3.1\ClienteServiceDatabase.pdb
+C:\git\Teste\ClienteServiceDatabase\bin\Debug\netcoreapp3.1\Cliente.dll
+C:\git\Teste\ClienteServiceDatabase\bin\Debug\netcoreapp3.1\Cliente.pdb
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.csproj.CopyComplete
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.dll
+C:\git\Teste\ClienteServiceDatabase\obj\Debug\netcoreapp3.1\ClienteServiceDatabase.pdb

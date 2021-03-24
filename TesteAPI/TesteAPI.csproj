@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="clientes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="clientes.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClienteServiceDatabase\ClienteServiceDatabase.csproj" />
+    <ProjectReference Include="..\Cliente\Cliente.csproj" />
+  </ItemGroup>
+
+
+</Project>

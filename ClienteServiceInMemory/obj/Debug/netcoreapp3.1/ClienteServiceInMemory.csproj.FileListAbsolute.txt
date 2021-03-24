@@ -1,0 +1,12 @@
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.AssemblyInfoInputs.cache
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.AssemblyInfo.cs
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.csproj.CoreCompileInputs.cache
+C:\Git\Teste\ClienteServiceInMemory\bin\Debug\netcoreapp3.1\ClienteServiceInMemory.deps.json
+C:\Git\Teste\ClienteServiceInMemory\bin\Debug\netcoreapp3.1\ClienteServiceInMemory.dll
+C:\Git\Teste\ClienteServiceInMemory\bin\Debug\netcoreapp3.1\ClienteServiceInMemory.pdb
+C:\Git\Teste\ClienteServiceInMemory\bin\Debug\netcoreapp3.1\Cliente.dll
+C:\Git\Teste\ClienteServiceInMemory\bin\Debug\netcoreapp3.1\Cliente.pdb
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.csprojAssemblyReference.cache
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.csproj.CopyComplete
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.dll
+C:\Git\Teste\ClienteServiceInMemory\obj\Debug\netcoreapp3.1\ClienteServiceInMemory.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pgKh3qV3uy9QYqZTXZLKqRE9Z/Ve6cuGooVLuZnzqwqsfpOoj2I8xk3jJy9UVT2GDDmg6mxgNZn5LSOVnk3U/A==",
+  "success": true,
+  "projectFilePath": "C:\\git\\Teste\\TesteAPI\\TesteAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\william.magalhaes\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
